@@ -1,3 +1,11 @@
 IO多路复用原理
 https://blog.csdn.net/Squid87/article/details/123452472
 https://zhuanlan.zhihu.com/p/448034877
+
+#Eigen
+https://eigen.tuxfamily.org/dox/group__TutorialMatrixArithmetic.html
+
+#cmake openmp openblas pthread
+add_definitions(-fPIC -fopenmp)
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fopenmp -lpthread")
+target_link_libraries ([projname] LINK_PUBLIC gomp openblas pthread)
