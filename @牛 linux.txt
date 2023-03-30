@@ -27,7 +27,8 @@ do
         echo "$info_app" >> memlog_${day}.txt
         echo "$info_docker" >> memlog_${day}.txt
         echo "$info_sys" >> memlog_${day}.txt
-        sleep 5
+        echo "" >> memlog_${day}.txt
+        sleep 60
 done
 
 内存泄漏分析
