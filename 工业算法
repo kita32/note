@@ -1,0 +1,27 @@
+#opencv  mat 2d transform 
+https://opencv-tutorial.readthedocs.io/en/latest/trans/transform.html
+
+#opencv 配准
+https://www.cnblogs.com/mtcnn/p/9411954.html
+
+#点云配准
+https://blog.csdn.net/weixin_42488182/article/details/105196148
+
+#kd-tree python应用例子 [?]
+https://www.jianshu.com/p/ffe52db3e12b
+https://blog.csdn.net/qq_42688495/article/details/124049811
+
+#OCR python : cnocr vs tesseract
+https://zhuanlan.zhihu.com/p/384620684 
+
+#yolo yolo 物体检测
+https://docs.opencv.org/3.4/da/d9d/tutorial_dnn_yolo.html
+
+#Haar cascade 人脸检测
+https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html
+
+#ORB/BRISK/AKAZE特征点提取、特征匹配的性能比较
+https://blog.csdn.net/CSDNhuaong/article/details/85701321
+
+#【DIY贴片机】基于opencv识别定位电子元件
+https://blog.csdn.net/sunshozhi/article/details/115023033
