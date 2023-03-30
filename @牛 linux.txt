@@ -10,6 +10,9 @@ ps aux | grep -i [pname]
 关闭进程
 kill -9 [pid]
 
+线程数
+watch -n 1 "cat /proc/[pid]/status | grep Threads"
+
 内存日志
 #!/bin/bash
 #ps aux | grep -i memlog.sh
