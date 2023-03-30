@@ -1,0 +1,33 @@
+linux版本
+lsb_release -a  20.04.4
+
+fd计数
+cd /proc/[pid]/fd; ls -l | wc -l
+
+查找pid
+ps aux | grep -i [pname]
+
+关闭进程
+kill -9 [pid]
+
+内存日志
+#!/bin/bash
+#ps aux | grep -i memlog.sh
+while :
+do
+        day=$(date +"%Y-%m-%d")
+        time=$(date +"%Y-%m-%d %H:%M:%S")
+        info_app=$(top -b -n 1 | grep camera)
+        info_docker=$(docker stats --no-stream | grep camera)
+        info_sys=$(top -n 1 -b | grep MiB)
+        echo "$time:" >> memlog_${day}.txt
+        echo "$info_app" >> memlog_${day}.txt
+        echo "$info_docker" >> memlog_${day}.txt
+        echo "$info_sys" >> memlog_${day}.txt
+        sleep 5
+done
+
+内存泄漏分析
+https://valgrind.org/docs/manual/quick-start.html#quick-start.mcrun
+valgrind --tool=memcheck --leak-check=all --show-leak-kinds=all [app] [args..]
+
