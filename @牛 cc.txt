@@ -1,3 +1,14 @@
+技能数
+  ROS2
+  QT
+  OPENCV
+  VUE
+  NGINX集群
+  OpenGL
+  FFMpeg
+  websocket
+  socket IO复用
+
 IO多路复用原理
 https://blog.csdn.net/Squid87/article/details/123452472
 https://zhuanlan.zhihu.com/p/448034877
@@ -6,6 +17,48 @@ https://zhuanlan.zhihu.com/p/448034877
 https://eigen.tuxfamily.org/dox/group__TutorialMatrixArithmetic.html
 
 #cmake openmp openblas pthread
-add_definitions(-fPIC -fopenmp)
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fopenmp -lpthread")
-target_link_libraries ([projname] LINK_PUBLIC gomp openblas pthread)
+  add_definitions(-fPIC -fopenmp)
+  set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fopenmp -lpthread")
+  target_link_libraries ([projname] LINK_PUBLIC gomp openblas pthread)
+
+
+#WebSocket
+  uWebSockets
+  https://github.com/uNetworking/uWebSockets
+  https://github.com/uNetworking/uWebSockets.js/tree/master/examples
+
+  sub/pub
+  https://unetworkingab.medium.com/efficient-pub-sub-with-%C2%B5websockets-js-e56d2202064
+  https://github.com/uNetworking/pubsub-benchmark/tree/master/uWebSockets.js
+
+#grpc
+  https://grpc.io/docs/languages/cpp/quickstart/#install-grpc
+  https://grpc.io/docs/languages/cpp/async/
+
+  node js buffer(bytes)
+    https://stackoverflow.com/questions/62483102/how-to-stream-bytes-using-grpc-in-nodejs
+
+  C++
+
+  cd ~/Code/GithubLibrary/grpc/grpc/examples/cpp/helloworld/cmake/build
+  ./greeter_server
+  ./greeter_client
+
+
+  python
+    python -m grpc_tools.protoc -I../../protos --python_out=. --pyi_out=. --grpc_python_out=. ../../protos/helloworld.proto
+
+  gRPC File Upload and Download in Python
+    https://betterprogramming.pub/grpc-file-upload-and-download-in-python-910cc645bcf0
+
+
+#ros2
+  ROS2学习笔记之编写Python服务service和client节点篇
+  https://blog.csdn.net/qq_38649880/article/details/104429277    
+  
+  https://docs.ros.org/en/humble/Installation/Windows-Install-Binary.html
+  
+  msg
+  https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Custom-ROS2-Interfaces.html
+  https://answers.ros.org/question/364269/send-a-2d-array-through-topics-in-ros2/
+  http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/Image.html
