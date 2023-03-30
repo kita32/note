@@ -4,3 +4,21 @@ http://zh.d2l.ai/chapter_attention-mechanisms/attention-cues.html#id2
 
 tranformer 论文
 https://www.youtube.com/watch?v=nzqlFIcCSWQ
+
+mysql
+https://blog.csdn.net/weixin_43450564/article/details/115537977
+
+简历
+https://jobs.zhaopin.com/CC193399810J40202471507.htm?actionid%5B0%5D=164279a9b6e84ffa8fca72b11a50e62c&actionid%5B1%5D=164279a9b6e84ffa8fca72b11a50e62c&srccode=508801_growth_352524_008028727154e2aa173ea000a2fd8a7e9fb&eqdc=D30C7908F710CED6C32A952CBEC9D4BD&traceid=e580bea278f240bb8bc5b86cad4cde47
+任职要求：
+1、理工科专科学历需7年及以上；理工科本科学历5年及以上，学历学信网可查。
+2、精通C/C++编程技术，基本功扎实；熟练使用STL、boost等基础库，精通常用数据结构、算法；
+3、精通TCP/IP协议，精通Socket编程，对IOCP、select、epoll等IO复用模型有深入理解；
+4、精通进程间通信、多线程编程等技术，对消息队列、线程并发控制有深入理解；
+5、熟悉软件体系结构，精通面向对象分析设计方法，逻辑能力强，掌握如何设计系统的构架及完整解决方案；
+6、精通至少一种大型数据库，Oracle、MSSQL、Sybase等。
+工作职责：
+1、根据产品需求完成软件需求分析，并参与软件概要设计与详细设计，并完成相关文档编写工作，保证文档的完整性和可追溯性；
+2、根据设计文档完成代码开发工作，并进行单元测试、集成测试；
+3、对公司现有平台以及软件产品进行代码维护；
+4、参与技术规范制定和工作流程改进。
